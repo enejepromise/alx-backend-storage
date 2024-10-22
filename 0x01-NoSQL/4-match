@@ -1,0 +1,2 @@
+// scriptthat find all
+db.school.find({name: "Holberton school"})
