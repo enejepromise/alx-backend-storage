@@ -1,1 +1,1 @@
-Learning Mongdb
+Learning Nosql, MongoDb.

@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
+""" A Python Module """
 
-"""
-Python function that lists all documents in a collection
-"""
+
 def list_all(mongo_collection):
-    return list(mongo_collection.find({})) or []
+    """
+    lists all documents in a collection
+    """
+    if mongo_collection == None:
+        return []
+    return list(mongo_collection.find())
